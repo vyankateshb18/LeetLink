@@ -37,7 +37,7 @@ app.get('/search', (req, res) =>{
 })
 
 // Listen on port 3000
-app.listen(port, () => console.info('listening on port ${port}'))
+app.listen(port, () => console.info(`listening on port ${port}`))
 
 function PerformSearch(searchTerm)
 {
